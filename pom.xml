@@ -92,6 +92,19 @@
 	
 	<build>
 	<plugins>
+			<plugin>
+			<groupId>org.codehaus.mojo</groupId>
+			<artifactId>build-helper-maven-plugin</artifactId>
+			<version>1.8</version>
+			<executions>
+			<execution>
+			<id>parse-version</id>
+			<goals>
+			<goal>parse-version</goal>
+			</goals>
+			</execution>
+			</executions>
+			</plugin>
 	
 				<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -120,7 +133,7 @@
 						<configuration>
 							<releaseName>v${project.version}</releaseName>
 							<tag>v${project.version}</tag>
-							<artifact>${project.build.directory}/rpm/${project.artifactId}/RPMS/noarch/${project.artifactId}-${project.version}-ciop.noarch.rpm</artifact>
+							<artifact>${project.build.directory}/${project.artifactId}-${project.version}.jar</artifact>
 							<overwriteArtifact>true</overwriteArtifact>
 						</configuration>
 					</execution>
