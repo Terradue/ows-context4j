@@ -1,6 +1,6 @@
 ## Java library for OGC OWS Context
 
-### The OGC OWS Context
+### OGC OWS Context
 
 The [OGC Web Services Context Document](http://www.opengeospatial.org/standards/owc) (OWS Context) describes the use cases, requirements and conceptual model for the OWS Context encoding standard. 
 
@@ -18,9 +18,17 @@ The standard provides a core model, which is extended and encoded as defined in 
 
 **There's an OWS Context demonstration live at [terradue.github.io/ows-context-demo/](http://terradue.github.io/ows-context-demo)**
 
+### ows4j library
+
+The **ows4j** library provides the tools to manage OGC OWS Context documents.
+
 ### Getting Started
 
 The folder https://github.com/Terradue/ows-context4j/tree/master/src/test/java/com/terradue/owc/test contains several tests that represent examples of the owc4j library.
+
+### Limitations
+
+The library does not provide yet the full coverage of the OGC OWS Context specification. 
 
 ### Questions, bugs, and suggestions
 
