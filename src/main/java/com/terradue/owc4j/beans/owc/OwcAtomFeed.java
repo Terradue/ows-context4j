@@ -359,7 +359,7 @@ public class OwcAtomFeed {
 //  <optional>
 //  <ref name="owcDisplay"/>
 //</optional>
-	@XmlElementRef(required=false)
+	@XmlElementRef
 	OwcDisplay display;
 	
 //<element name="dc:publisher">
