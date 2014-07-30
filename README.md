@@ -20,6 +20,8 @@ The standard provides a core model, which is extended and encoded as defined in 
 
 ### Getting Started
 
+The folder https://github.com/Terradue/ows-context4j/tree/master/src/test/java/com/terradue/owc/test contains several tests that represent examples of the owc4j library.
+
 ### Questions, bugs, and suggestions
 
 Please file any bugs or questions as [issues](https://github.com/Terradue/ows-context4j/issues/new) 
