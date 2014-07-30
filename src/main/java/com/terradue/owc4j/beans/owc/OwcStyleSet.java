@@ -40,7 +40,7 @@ public class OwcStyleSet extends AtomCommon {
 	@XmlElement
 	private OwcLegendUrl legendUrl;
 	
-	@XmlElementRef(required=false)
+	@XmlElementRef
 	private OwcContent content;
 	
 	@XmlElementRef
