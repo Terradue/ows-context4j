@@ -372,7 +372,7 @@ public class OwcAtomEntry extends AtomCommon {
 	
 	//// OWC
 	
-	@XmlElementRef(required=false)
+	@XmlElementRef
 	OwcOffering offering;
 	
 	@XmlElement(name="publisher", namespace="http://purl.org/dc/elements/1.1/", required=false)
