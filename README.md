@@ -1,8 +1,8 @@
 ## Java library for OGC OWS Context
 
-### ows4j library
+### owc4j library
 
-The **ows4j** library provides the tools to manage OGC OWS Context documents.
+The **owc4j** library provides the tools to manage OGC OWS Context documents.
 
 ### OGC OWS Context
 
